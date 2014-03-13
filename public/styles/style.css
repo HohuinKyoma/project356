@@ -1,0 +1,199 @@
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MAIN STYLE
+--------------- */
+
+body {
+	background:url('../img/bg.png') no-repeat 50% 20% #000;
+}
+body.login{
+	background:url('../img/comingsoon.jpg') no-repeat 50% 10% #000;
+}
+img#comingsoon {
+	width: 640px;
+	margin:auto;
+	height:320px;
+	display:block;
+	margin-top:50px;
+	opacity:0;
+}
+h1.error{
+	font-size: 70px;
+}
+h1.not-found{
+	font-size: 170px;
+	font-weight: 600;
+	margin-bottom: -30px;
+	padding:0;
+}
+section#wrapper{
+	width: 960px;
+	margin: auto;
+}
+div.content{
+	margin-top:80px;
+}
+div.header ul{
+	margin:0;
+	padding:0;
+}
+div.header ul li{
+	display: inline-block;
+	margin-right: 15px;
+	font-style: italic;
+}
+div.auth-content{
+	margin-top:35px;
+}
+div.header{
+	background: #202020;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+div.header .container{
+	position:relative;
+}
+div.header .avatar{
+	width:30px;
+	height:30px;
+	display: inline-block;
+	margin-right: 6px;
+	overflow:hidden;
+	border: 1px solid rgb(51, 51, 51);
+}
+div.header .avatar img{
+	width:100%;
+}
+div.header .logged span{
+	position: relative;
+	top: -16px;
+}
+div.header .search{
+	margin-top:39px;
+}
+div.header .search input{
+	background: rgb(65, 65, 65);
+	border: none;
+}
+div.profile span.username{
+	font-size:40px;
+	font-weight: 300;
+}
+div.profile .avatar{
+	margin-top: 10px;
+	text-align: center;
+	width:200px;
+	height:200px;
+	opacity: 0.75;
+	overflow:hidden;
+	border: 1px solid rgb(51, 51, 51);
+}
+div.profile span.registered_at{
+	position:relative;
+	top:10px;
+}
+div.profile div.progression{
+	margin-top: 150px;
+	float:right;
+}
+div.profile div.progression h2{
+	font-size: 55px;
+	font-weight: 700;
+	text-align: center;
+}
+div.profile div.progression h2 span{
+	color:#958973;
+}
+div.profile div.jauge{
+	height:40px;
+	border: 1px solid rgb(51, 51, 51);
+}
+div.profile .code{
+	margin-top: 30px;
+}
+div.profile .code h2{
+	font-weight: 700;
+	margin-bottom: 20px;
+	font-size: 45px;
+	background: white;
+	padding: 4px;
+	display: inline-block;
+	color: rgb(39, 39, 39);
+}
+div.profile .clipboard{
+	height:32px;
+	width: 32px;
+	background: url('../img/clipboard.png') no-repeat;
+	display: inline-block;
+	position:relative;
+	top: 10px;
+	left: 3px;
+	opacity: 0.6;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+div.profile .clipboard:hover{
+	opacity: 1;
+}
+div.profile .visits{
+	margin-top: 50px;
+}
+div.profile .visits ul{
+	margin:0;
+	padding: 0;
+}
+div.profile .visits ul li{
+	display: inline;
+	margin-right: 8px;
+}
+div.login, .code-form{
+	width: 645px;
+	margin: auto;
+}
+div.login{
+	margin-top:400px;
+}
+div.fb-like{
+	position: absolute;
+	top: 10px;
+	left: 23px;
+	z-index:1000;
+}
+div.footer{
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+div.footer span{
+	color:#958973;
+	font-weight: 700;
+}
+div.page{
+	min-height: 700px;
+}
